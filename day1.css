@@ -1,0 +1,23 @@
+/* Styling untuk container navigasi */
+        .nav {
+            background-color: #333; /* Warna latar gelap */
+            padding: 10px 20px;
+            display: flex; /* Menata list secara horizontal */
+            gap: 15px; /* Jarak antar item */
+            list-style: none; /* Hilangkan bullet pada list */
+        }
+
+        /* Karena <li> ada di dalam div, bukan ul/ol, kita set display block agar seperti tombol */
+        .nav li {
+            color: white;
+            cursor: pointer;
+            padding: 8px 15px;
+            background-color: #555;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Hover effect untuk interaksi */
+        .nav li:hover {
+            background-color: #007bff;
+        }
